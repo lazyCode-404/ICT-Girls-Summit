@@ -1,0 +1,11 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
+.vscode
+node_modules
+.DS_Store
+.idea
+_config.yml
