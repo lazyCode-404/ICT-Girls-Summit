@@ -179,7 +179,7 @@
   .lists li {
     list-style: none;
     color: #56585c;
-    margin: 30px;
+    margin: 6px;
   }
   
   .lists-2 {
@@ -279,6 +279,7 @@
     .subtitle {
       text-align: right;
       width: 50%;
+      font-size: 20px;
     }
   
     .small-title {
