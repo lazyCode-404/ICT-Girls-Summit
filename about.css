@@ -1,454 +1,453 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+.paragraph p {
+  color: #272a31;
+  font-size: 19px;
+  text-align: right;
+  background: #fff;
+  box-shadow: #fff  inset;
+  border: 2px solid #fff;
+}
+
+.navigation-bar {
+  visibility: hidden;
+}
+
+.container-1 {
+  background-color: #f8f8ff;
+  padding-bottom: 50px;
+}
+
+.inquiry {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.inquiry p {
+  margin: 30px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #272a31;
+}
+
+.summit p {
+  color: #272a31;
+  margin: 20px;
+  text-align: right;
+}
+
+.logo-heading h3 {
+  color: #000;
+  text-align: left;
+  font-size: 40px;
+  width: 55%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: #ec5242 1px solid;
+}
+
+.kana {
+  width: 80%;
+  height: 50%;
+  margin: 20px;
+}
+
+.logo-heading {
+  display: flex;
+  border: lightblue solid 1px;
+  margin: 30px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.image-logo {
+  text-align: right;
+}
+
+.sub-main p {
+  margin-top: 5px;
+  border-bottom: #ec5242 solid 1px;
+  width: 55%;
+}
+
+.container-2 h3 {
+  text-align: center;
+  color: #272a31;
+  font-size: 25px;
+}
+
+.background-images {
+  background-image: url("images/2021.jpg"), url("images/2020.jpg");
+  background-repeat: no-repeat, no-repeat;
+  height: 50vh;
+  margin: 40px;
+}
+
+.background-images h3 {
+  text-align: center;
+  float: bottom;
+  margin-top: 70px;
+  right: 40%;
+  height: 15vh;
+  position: absolute;
+  color: #fff;
+}
+
+.sub-sections {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sub-sections p {
+  margin-top: 10px;
+}
+
+.container-2 {
+  text-align: center;
+  margin: 5px;
+}
+
+.background-images p {
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 100px;
+  text-align: center;
+  width: 78%;
+}
+
+.background-image-2 {
+  background-image: url("images/cdc-events.jpg");
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin: 40px;
+}
+
+.background-image-2 h3 {
+  text-align: center;
+  float: bottom;
+  margin-top: 70px;
+  right: 40%;
+  height: 15vh;
+  position: absolute;
+  color: #fff;
+}
+
+.background-image-2 p {
+  position: absolute;
+  color: #000;
+  font-size: 18px;
+  margin-top: 100px;
+  text-align: center;
+  width: 78%;
+}
+
+.footer {
+  background: #272a31;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.footer h2 {
+  text-align: center;
+  color: #56585c;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.lists li {
+  list-style: none;
+  color: #56585c;
+  margin: 6px;
+}
+
+.lists-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lists-2 li {
+  list-style-type: none;
+  color: #d3d3d3;
+  margin-top: 20px;
+}
+
+.u-list li {
+  list-style-type: none;
+  color: #272a31;
+  font-size: 15px;
+}
+
+.nav-desktop {
+  visibility: hidden;
+}
+
+.about-para p {
+  text-align: center;
+}
+
+.contact-us p {
+  text-align: center;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
   body {
-    font-family: "lato", sans-serif;
+    background-color: #fff;
   }
-  
-  .paragraph p {
-    color: #272a31;
-    font-size: 19px;
-    text-align: right;
-    background: #fff;
-    box-shadow: #fff  inset;
-    border: 2px solid #fff;
-  }
-  
-  .navigation-bar {
-    visibility: hidden;
-  }
-  
-  .container-1 {
-    background-color: #f8f8ff;
-    padding-bottom: 50px;
-  }
-  
-  .inquiry {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .inquiry p {
-    margin: 30px;
-  }
-  
-  .sub-title {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 10px;
-    color: #272a31;
-  }
-  
-  .summit p {
-    color: #272a31;
-    margin: 20px;
-    text-align: right;
-  }
-  
-  .logo-heading h3 {
-    color: #000;
-    text-align: left;
-    font-size: 40px;
-    width: 55%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: #ec5242 1px solid;
-  }
-  
-  .kana {
-    width: 80%;
-    height: 50%;
-    margin: 20px;
-  }
-  
-  .logo-heading {
-    display: flex;
-    border: lightblue solid 1px;
-    margin: 30px;
-    padding-bottom: 10px;
-    justify-content: center;
-  }
-  
-  .image-logo {
-    text-align: right;
-  }
-  
-  .sub-main p {
-    margin-top: 5px;
-    border-bottom: #ec5242 solid 1px;
-    width: 55%;
-  }
-  
-  .container-2 h3 {
-    text-align: center;
-    color: #272a31;
-    font-size: 25px;
-  }
-  
-  .background-images {
-    background-image: url("images/2021.jpg"), url("images/2020.jpg");
-    background-repeat: no-repeat, no-repeat;
-    height: 50vh;
-    margin: 40px;
-  }
-  
-  .background-images h3 {
-    text-align: center;
-    float: bottom;
-    margin-top: 70px;
-    right: 40%;
-    height: 15vh;
-    position: absolute;
-    color: #fff;
-  }
-  
-  .sub-sections {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  
-  .sub-sections p {
-    margin-top: 10px;
-  }
-  
-  .container-2 {
-    text-align: center;
-    margin: 5px;
-  }
-  
-  .background-images p {
-    position: absolute;
-    color: #fff;
-    font-size: 18px;
-    margin-top: 100px;
-    text-align: center;
-    width: 78%;
-  }
-  
-  .background-image-2 {
-    background-image: url("images/cdc-events.jpg");
-    background-repeat: no-repeat;
-    height: 50vh;
-    margin: 40px;
-  }
-  
-  .background-image-2 h3 {
-    text-align: center;
-    float: bottom;
-    margin-top: 70px;
-    right: 40%;
-    height: 15vh;
-    position: absolute;
-    color: #fff;
-  }
-  
-  .background-image-2 p {
-    position: absolute;
-    color: #000;
-    font-size: 18px;
-    margin-top: 100px;
-    text-align: center;
-    width: 78%;
-  }
-  
-  .footer {
-    background: #272a31;
-    padding-bottom: 25px;
-    padding-top: 25px;
-  }
-  
-  .footer h2 {
-    text-align: center;
-    color: #56585c;
-  }
-  
-  .lists {
-    display: flex;
-    justify-content: center;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  
-  .lists li {
-    list-style: none;
-    color: #56585c;
-    margin: 6px;
-  }
-  
-  .lists-2 {
+
+  .desktop-header {
     display: flex;
     justify-content: space-around;
+    visibility: visible;
   }
-  
-  .lists-2 li {
-    list-style-type: none;
-    color: #d3d3d3;
-    margin-top: 20px;
+
+  .hamburger {
+    display: none;
   }
-  
-  .u-list li {
+
+  .desktop-list {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+  }
+
+  .desktop-list a {
     list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
     color: #272a31;
-    font-size: 15px;
   }
-  
-  .nav-desktop {
-    visibility: hidden;
+
+  .desktop-list li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
   }
-  
-  .about-para p {
+
+  .list-links {
+    color: #ec5242;
+  }
+
+  .links {
+    border: 10px solid #ec5242;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .links-2 {
+    width: 100px;
+    margin-bottom: 25px;
+    color: #ec5242;
+  }
+
+  .links-2 a {
+    color: #ec5242;
+    padding-left: 15px;
+  }
+
+  .about-logo {
+    font-size: 40px;
+    color: #272a31;
+    text-decoration: none;
+  }
+
+  .subtitle {
+    text-align: right;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .small-title {
+    display: flex;
+    font-size: 25px;
+  }
+
+  .page-title {
+    color: #ec5242;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'cocogoose', sans-serif;
+    background: -webkit-linear-gradient(#ec5242, #ab0e2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .big-title {
+    background-image: url("images/illustration7.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 10%;
+  }
+
+  .paragraph p {
+    color: #272a31;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5rem;
+  }
+
+  .paragraph {
+    width: 30%;
+    border: #fff 3px solid;
+  }
+
+  .summit {
+    display: none;
+  }
+
+  .date h6 {
+    font-size: 40px;
+    margin-top: 100px;
     text-align: center;
   }
-  
+
+  .date p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .background-image .exibition {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  .background-image .forum {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+  }
+
+  .background-image .workshop {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+  }
+
+  .card-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .background-images {
+    background-size: 100%;
+    height: 30vh;
+    width: 30%;
+  }
+
+  .about-para {
+    text-align: center;
+    margin-top: 50px;
+    background-image: url("images/illustration one2.png");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position: 30%;
+    margin-right: 5px;
+    margin-left: 5px;
+    align-items: center;
+    position: relative;
+    left: 30%;
+  }
+
+  .about-para p {
+    width: 30%;
+    font-size: 18px;
+    line-height: 2rem;
+    color: #272a31;
+    border: 5px solid #fff;
+    box-shadow: #fff;
+    background: #fff;
+    margin-top: 30px;
+  }
+
   .contact-us p {
     text-align: center;
-    margin: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
   }
-  
-  @media (min-width: 768px) {
-    body {
-      background-color: #fff;
-    }
-  
-    .desktop-header {
-      display: flex;
-      justify-content: space-around;
-      visibility: visible;
-    }
-  
-    .hamburger {
-      display: none;
-    }
-  
-    .desktop-list {
-      display: flex;
-      width: 40vw;
-      justify-content: space-between;
-    }
-  
-    .desktop-list a {
-      list-style-type: none;
-      text-decoration: none;
-      font-size: 25px;
-      color: #272a31;
-    }
-  
-    .desktop-list li {
-      list-style-type: none;
-      text-decoration: none;
-      font-size: 16px;
-    }
-  
-    .list-links {
-      color: #ec5242;
-    }
-  
-    .links {
-      border: 10px solid #ec5242;
-      padding-top: 10px;
-      padding-bottom: 15px;
-      width: 250px;
-      text-align: center;
-      margin-bottom: 15px;
-    }
-  
-    .links-2 {
-      width: 100px;
-      margin-bottom: 25px;
-      color: #ec5242;
-    }
-  
-    .links-2 a {
-      color: #ec5242;
-      padding-left: 15px;
-    }
-  
-    .about-logo {
-      font-size: 40px;
-      color: #272a31;
-      text-decoration: none;
-    }
-  
-    .subtitle {
-      text-align: right;
-      width: 50%;
-      font-size: 20px;
-    }
-  
-    .small-title {
-      display: flex;
-      font-size: 25px;
-    }
-  
-    .page-title {
-      color: #ec5242;
-      text-align: center;
-      font-size: 80px;
-      margin-top: 20px;
-      margin-left: 10px;
-      margin-right: 10px;
-      font-family: 'cocogoose', sans-serif;
-      background: -webkit-linear-gradient(#ec5242, #ab0e2a);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  
-    .big-title {
-      background-image: url("images/illustration7.png");
-      background-repeat: no-repeat;
-      background-size: 5%;
-      background-position: 10%;
-    }
-  
-    .paragraph p {
-      color: #272a31;
-      text-align: center;
-      margin-top: 20px;
-      line-height: 1.5rem;
-    }
-  
-    .paragraph {
-      width: 30%;
-      border: #fff 3px solid;
-    }
-  
-    .summit {
-      display: none;
-    }
-  
-    .date h6 {
-      font-size: 40px;
-      margin-top: 100px;
-      text-align: center;
-    }
-  
-    .date p {
-      font-size: 15px;
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    .background-image .exibition {
-      display: flex;
-      flex-direction: column;
-      margin-left: 10px;
-    }
-  
-    .background-image .forum {
-      display: flex;
-      flex-direction: column;
-      margin-left: 3px;
-    }
-  
-    .background-image .workshop {
-      display: flex;
-      flex-direction: column;
-      margin-left: 3px;
-    }
-  
-    .card-box {
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-  
-    .background-images {
-      background-size: 100%;
-      height: 30vh;
-      width: 30%;
-    }
-  
-    .about-para {
-      text-align: center;
-      margin-top: 50px;
-      background-image: url("images/illustration one2.png");
-      background-repeat: no-repeat;
-      background-size: 5%;
-      background-position: 30%;
-      margin-right: 5px;
-      margin-left: 5px;
-      align-items: center;
-      position: relative;
-      left: 30%;
-    }
-  
-    .about-para p {
-      width: 30%;
-      font-size: 18px;
-      line-height: 2rem;
-      color: #272a31;
-      border: 5px solid #fff;
-      box-shadow: #fff;
-      background: #fff;
-      margin-top: 30px;
-    }
-  
-    .contact-us p {
-      text-align: center;
-      font-size: 20px;
-      font-weight: 500;
-      margin-top: 30px;
-    }
-  
-    .sub-sections {
-      text-align: center;
-    }
-  
-    .sub-sections h2 {
-      margin-bottom: 10px;
-      font-size: 25px;
-    }
-  
-    .sub-sections p {
-      color: #272a31;
-    }
-  
-    .logo-heading {
-      margin-top: 80px;
-    }
-  
-    .container-2 p {
-      text-align: center;
-      margin-top: 25px;
-    }
-  
-    .image-container {
-      display: flex;
-      flex-direction: row;
-    }
-  
-    .big-container {
-      justify-content: center;
-      position: relative;
-      left: 20%;
-    }
-  
-    .contact-us {
-      background-image: url("images/illustration6.png");
-      background-repeat: no-repeat;
-      background-size: 3%;
-      background-position: 90%;
-      padding: 8px;
-    }
-  
-    .kl {
-      width: 5%;
-    }
-  
-    .navigation-bar {
-      visibility: visible;
-    }
-  
-    .container {
-      justify-content: center;
-    }
+
+  .sub-sections {
+    text-align: center;
   }
-  
+
+  .sub-sections h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .sub-sections p {
+    color: #272a31;
+  }
+
+  .logo-heading {
+    margin-top: 80px;
+  }
+
+  .container-2 p {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .big-container {
+    justify-content: center;
+    position: relative;
+    left: 20%;
+  }
+
+  .contact-us {
+    background-image: url("images/illustration6.png");
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: 90%;
+    padding: 8px;
+  }
+
+  .kl {
+    width: 5%;
+  }
+
+  .navigation-bar {
+    visibility: visible;
+  }
+
+  .container {
+    justify-content: center;
+  }
+}

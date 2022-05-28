@@ -16,7 +16,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-[live demo](https://bwalyanonde.github.io/Mobile-Portfolio/)
+[live demo](https://bwalyanonde.github.io/Capstone-Web-Project-1/)
 
 
 

@@ -23,7 +23,7 @@ body {
 }
 
 #desktop-header {
-    display: none;
+  display: none;
 }
 
 .red-logo {
@@ -166,9 +166,10 @@ body {
   align-items: center;
   padding: 20px;
 }
+
 .main-section {
-    display: grid;
-    padding: 20px;
+  display: grid;
+  padding: 20px;
 }
 
 .card-1 {
@@ -327,14 +328,12 @@ body {
 }
 
 hr {
-    width: 10%;
-    margin-inline: auto;
-    border: none;
-    height: 3px;
-    background: #ec5242;
+  width: 10%;
+  margin-inline: auto;
+  border: none;
+  height: 3px;
+  background: #ec5242;
 }
-
-
 
 .desktop-nav {
   visibility: hidden;
@@ -358,11 +357,11 @@ hr {
 
   #desktop-header {
     display: block;
-}
+  }
 
-.header {
-    padding-top: 0px;
-}
+  .header {
+    padding-top: 0;
+  }
 
   .card-1 {
     display: flex;
@@ -382,7 +381,6 @@ hr {
     text-align: center;
   }
 
-  
   .flex-box {
     flex-direction: column;
     justify-content: space-between;
@@ -440,6 +438,7 @@ hr {
     display: flex;
     flex-direction: column;
     background-color: rgba(150, 150, 150, 0.4);
+
     /* margin: 5px; */
     height: 20vh;
   }
