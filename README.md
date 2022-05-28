@@ -4,7 +4,7 @@
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage. And JavaScript which is used for making the webpage responsive.
 
-![screenshot](./images/email.png)
+![screenshot](./images/summit.png)
 
 
 ## Built With
@@ -15,6 +15,8 @@
 
 
 To get a local copy up and running follow these simple example steps.
+
+[live demo](https://bwalyanonde.github.io/Mobile-Portfolio/)
 
 
 
