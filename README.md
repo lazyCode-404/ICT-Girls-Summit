@@ -13,8 +13,13 @@
 - css
 - javascript
 
+### Getting Started
 
 To get a local copy up and running follow these simple example steps.
+
+- Go in the repo
+- Check the branch
+- Below is the live demo link
 
 [live demo](https://bwalyanonde.github.io/Capstone-Web-Project-1/)
 
