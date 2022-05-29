@@ -16,8 +16,9 @@
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
-git clone https://bwalyanonde.github.io/Capstone-Web-Project-1/  capstone
-
+git clone https://bwalyanonde.github.io/Capstone-Web-Project-1/ capstone
+Main branch
+cd Summit-Features
 
 
 
@@ -42,8 +43,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+- Thank you to my coding partners
 - Inspiration
-- etc
+- [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose design template was used is used for this project.
+
 
 ## 📝 License
 
